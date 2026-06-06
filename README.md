@@ -3,7 +3,8 @@ SELAMAT DATANG DI PROYEK SEDERHANA KAMI!
 Disini kami atas nama (mnaufalq1) dan (razwapamungkas) mempersembahkan hasil dari kerja sama kami dalam membuat tugas yaitu tugas untuk 
 membuat website bebas dan mengupload ke github dan yg terakhir men-deploynya.
 
-ISI PROYEK 
+ISI PROYEK
+
 Proyek kami adalah sebuah website article tentang 4 hal yaitu :
 
 - Tentang sejarah.
@@ -13,6 +14,7 @@ Proyek kami adalah sebuah website article tentang 4 hal yaitu :
 - Tentang cara tuning mesin mobil di CarXStreet.
 
 FITUR YANG DITAMBAHKAN
+
 Ada beberapa fitur yang telah kami tambahkan agar websitenya menjadi lebih hidup, Dan fitur-fitur tersebut ada :
 - Tampilan beranda.
 - Navbar yang berfungsi
