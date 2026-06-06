@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Kini - Halaman Utama</title>
+    <link rel="stylesheet" href="web.css">
+    <style>
+        /* Menggunakan gaya font standar/biasa sesuai permintaan */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Modifikasi layout utama agar penuh tanpa sidebar */
+        .main-container {
+            display: block; /* Menonaktifkan grid/flexbox dua kolom bawaan */
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .content-area {
+            width: 100%; /* Melebarkan konten utama secara penuh */
+        }
+
+        /* Style khusus halaman utama untuk menyusun daftar berita (grid) */
+        .home-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .news-card {
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .news-card h3 {
+            font-size: 1.25rem;
+            margin: 10px 0;
+            line-height: 1.4;
+        }
+
+        .news-card h3 a {
+            color: #111111;
+            text-decoration: none;
+        }
+
+        .news-card h3 a:hover {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+
+        .card-meta {
+            font-size: 0.8rem;
+            color: #666666;
+            margin-bottom: 10px;
+        }
+
+        .card-snippet {
+            font-size: 0.9rem;
+            color: #444444;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .badge-category {
+            display: inline-block;
+            background-color: #e0e0e0;
+            color: #333333;
+            font-size: 0.75rem;
+            font-weight: bold;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            width: max-content;
+        }
+
+        .btn-baca {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .btn-baca:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Utama Situs -->
+    <header class="main-header">
+        <h1>BERITA</h1>
+        <p>Portal Informasi Terkini, Akurat, dan Edukatif Setiap Hari</p>
+    </header>
+
+    <!-- Navigasi Menu -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="./home.html" class="active">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="https://wa.me/081234567890" target="_blank">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Kontainer Utama Beranda -->
+    <div class="main-container">
+
+        <!-- Area Konten Utama Berlipat Penuh -->
+        <main class="content-area">
+            <section class="news-article">
+                <h2>Berita Pilihan Redaksi Hari Ini</h2>
+                <p class="meta-date">Diperbarui pada: 6 Juni 2026</p>
+                <p class="intro-text">Selamat datang di Berita Kini. Temukan berbagai panduan, tips, dan wawasan edukatif yang dikemas secara sederhana dan praktis khusus untuk Anda.</p>
+                
+                <!-- Kumpulan Kartu Berita -->
+                <div class="home-grid">
+                    
+                    <!-- Kartu Berita 1: Sejarah -->
+                    <div class="news-card">
+                        <div>
+                            <span class="badge-category">Edukasi</span>
+                            <h3><a href="./proyek.html">Mengenal Sejarah: Mengapa Kita Harus Belajar Masa Lalu?</a></h3>
+                            <div class="card-meta">Diposting pada: 6 Juni 2026</div>
+                            <p class="card-snippet">Bagi sebagian orang, mendengar kata "Sejarah" mungkin memicu bayangan tentang buku tebal dan hafalan mati. Padahal, sejarah adalah kisah petualangan terbesar manusia...</p>
+                        </div>
+                        <a href="#" class="btn-baca">Baca Selengkapnya &rarr;</a>
+                    </div>
+
+                    <!-- Kartu Berita 2: Otomotif -->
+                    <div class="news-card">
+                        <div>
+                            <span class="badge-category">Otomotif</span>
+                            <h3><a href="./proyek_1.html">Tips Cerdas Memilih dan Sebelum Membeli Motor Baru/Bekas</a></h3>
+                            <div class="card-meta">Diposting pada: 5 Juni 2026</div>
+                            <p class="card-snippet">Membeli sepeda motor adalah investasi jangka panjang untuk mobilitas Anda. Simak tips mengatur anggaran hingga cara memeriksa fisik kendaraan agar tidak menyesal...</p>
+                        </div>
+                        <a href="#" class="btn-baca">Baca Selengkapnya &rarr;</a>
+                    </div>
+
+                    <!-- Kartu Berita 3: Gadget/Teknologi -->
+                    <div class="news-card">
+                        <div>
+                            <span class="badge-category">Teknologi</span>
+                            <h3><a href="./proyek_2.html">Cara Merawat Baterai Laptop Agar Awet Bertahun-tahun</a></h3>
+                            <div class="card-meta">Diposting pada: 4 Juni 2026</div>
+                            <p class="card-snippet">Sering dicolok seharian atau menunggu kapasitas baterai sampai benar-benar kosong? Berikut mitos dan fakta seputar perawatan komponen laptop harian Anda...</p>
+                        </div>
+                        <a href="#" class="btn-baca">Baca Selengkapnya &rarr;</a>
+                    </div>
+
+                    <!-- Kartu Berita 4: Kuliner -->
+                    <div class="news-card">
+                        <div>
+                            <span class="badge-category">Permainan</span>
+                            <h3><a href="./proyek_3.html">Resep Rahasia Membuat Nasi Goreng Spesial ala Chef Budi</a></h3>
+                            <div class="card-meta"> Diposting pada: 3 Juni 2026</div>
+                            <p class="card-snippet">Ingin membuat nasi goreng yang lezat dan berbeda dari biasanya? Chef Budi berbagi resep rahasia dan tips memasak untuk menciptakan hidangan nasi goreng spesial di rumah...</p>
+                        </div>
+                        <a href="#" class="btn-baca">Baca Selengkapnya &rarr;</a>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <!-- Tombol Kembali Ke Atas -->
+    <button class="floating-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        Kembali ke atas
+    </button>
+
+</body>
+
+</html>
