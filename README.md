@@ -1,6 +1,6 @@
 SELAMAT DATANG DI PROYEK SEDERHANA KAMI!
 
-Disini kami atas nama (mnaufalq1) dan (razwapamungkas) mempersembahkan hasil dari kerja sama kami dalam membuat tugas yaitu tugas untuk 
+Disini kami mempersembahkan hasil dari kerja sama kami dalam membuat tugas yaitu tugas untuk 
 membuat website bebas dan mengupload ke github dan yg terakhir men-deploynya.
 
 A. ISI PROYEK
@@ -21,4 +21,12 @@ Ada beberapa fitur yang telah kami tambahkan agar websitenya menjadi lebih hidup
 - Sidebar yang dapat diklik bukan gimmick doang.
 - Ada tombol untuk kembali ke atas yang dimana lebih memudahkan pembaca untuk kembali ke atas website.
 
+C. LINK WEBSITE
+Untuk link proyek yang telah di deploy :
+https://proyek-belajar-programming.netlify.app
+
 Demikian, ini saja yang bisa kami persembahkan kurang lebihnya mohon maaf. Terima Kasih!
+
+D. KONTRIBUSI
+Razwa (@razwapamungkas)
+Naufal (@mnaufalq1)
